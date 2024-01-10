@@ -39,11 +39,11 @@ const BaseInput = styled.input`
 
   &::placeholder {
     color: ${(props) => props.theme['gray-500']};
+  }
 
-    &:focus {
-      box-shadow: none;
-      border-color: ${(props) => props.theme['green-500']};
-    }
+  &:focus {
+    box-shadow: none;
+    border-color: ${(props) => props.theme['green-500']};
   }
 `
 
@@ -57,7 +57,6 @@ export const TaskInput = styled(BaseInput)`
 
 export const MinutesAmountInput = styled(BaseInput)`
   width: 4rem;
-  text-align: center;
 `
 
 export const CoutdownContainer = styled.div`
